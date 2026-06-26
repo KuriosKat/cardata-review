@@ -1,7 +1,7 @@
 # 차량 제어 데이터셋 검수 시스템
 
 차량 음성 제어 sLLM 학습용 데이터셋(`combined_dataset_ko_stt_2x`)을 여러 검수자가
-온라인으로 검수·편집하기 위한 단일 페이지 도구입니다. 관리자: **KuriosKats**
+온라인으로 검수·편집하기 위한 단일 페이지 도구입니다. 관리자: **KuriosKat**
 
 브라우저만 있으면 동작하며 별도 서버가 필요 없습니다.
 
@@ -31,7 +31,7 @@
 
 1. 배포된 페이지(아래 GitHub Pages 주소)를 연다.
 2. 상단 REVIEW 바에 **본인 GitHub 닉네임**을 입력한다.
-3. **⎇ GitHub** 버튼을 눌러 저장소(`KuriosKats/cardata-review`), 브랜치, 검수파일 경로,
+3. **⎇ GitHub** 버튼을 눌러 저장소(`KuriosKat/cardata-review`), 브랜치, 검수파일 경로,
    그리고 **본인 Personal Access Token**을 입력하고 "연결 확인"을 누른다.
 4. **검수 시 자동 커밋**을 체크한다. (이제 검수할 때마다 저장소에 자동 반영됨)
 5. **◈ IVIS 검수모드** 버튼을 눌러 인포테인먼트 행만 표시한다.
@@ -44,22 +44,22 @@
 ### Personal Access Token 발급 (검수자 각자)
 
 1. GitHub → Settings → Developer settings → **Fine-grained tokens** → Generate new token
-2. **Repository access**: `KuriosKats/cardata-review`만 선택
+2. **Repository access**: `KuriosKat/cardata-review`만 선택
 3. **Permissions → Repository permissions → Contents: Read and write**
 4. 생성된 토큰(`github_pat_...`)을 복사해 도구의 GitHub 패널에 붙여넣는다.
    - 토큰은 저장·전송되지 않고 그 브라우저 세션에만 보관된다.
-   - 저장소에 쓰기 권한을 주려면 KuriosKats가 각 검수자를 **Collaborator**로 추가해야 한다
+   - 저장소에 쓰기 권한을 주려면 KuriosKat가 각 검수자를 **Collaborator**로 추가해야 한다
      (Settings → Collaborators). 또는 검수자가 fork 후 PR을 보내는 방식을 쓴다.
 
 관리자는 자동 커밋으로 누적된 `reviews/review.json`을 그대로 쓰거나, 검수자가 보낸
 개별 파일을 **⤓ 검수 불러오기/병합**으로 합칠 수 있다.
 
-## GitHub에 올리는 방법 (KuriosKats 계정)
+## GitHub에 올리는 방법 (KuriosKat 계정)
 
 ### A. 웹에서 올리기 (가장 간단)
 
 1. https://github.com/new 에서 새 저장소를 만든다.
-   - Owner: **KuriosKats**, Repository name: 예) `cardata-review`
+   - Owner: **KuriosKat**, Repository name: 예) `cardata-review`
    - Public 또는 Private 선택 (Private면 Pages는 유료 플랜 필요)
 2. 저장소 페이지에서 **Add file → Upload files**를 누른다.
 3. 이 폴더의 `index.html`, `data/`, `reviews/`, `README.md`를 그대로 드래그해 올린다.
@@ -73,7 +73,7 @@ git init
 git add .
 git commit -m "검수 시스템 초기 배포"
 git branch -M main
-git remote add origin https://github.com/KuriosKats/cardata-review.git
+git remote add origin https://github.com/KuriosKat/cardata-review.git
 git push -u origin main
 ```
 
@@ -83,7 +83,7 @@ git push -u origin main
 2. **Source**를 `Deploy from a branch`로 두고, Branch를 `main` / 폴더를 `/ (root)`로 선택한다.
 3. **Save**를 누르고 1~2분 기다린다.
 4. 배포 주소가 표시된다:
-   `https://KuriosKats.github.io/cardata-review/`
+   `https://KuriosKat.github.io/cardata-review/`
 5. 이 주소를 검수자들에게 공유하면 각자 브라우저에서 검수할 수 있다.
 
 > Private 저장소를 그대로 두면 데이터셋이 외부에 노출되지 않는다. 이 경우 Pages 공개
