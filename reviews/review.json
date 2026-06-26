@@ -1,14 +1,29 @@
 {
   "schema": "cardata-review/v1",
   "dataset": "combined_dataset_ko_stt_2x.jsonl",
-  "updated_at": "2026-06-26T01:27:35.829Z",
-  "updated_by": null,
+  "updated_at": "2026-06-26T01:32:23.788Z",
+  "updated_by": "KuriosKat",
   "total_rows": 4736,
-  "reviewed": 1,
+  "reviewed": 4,
   "reviews": {
     "d02091527b16": {
       "by": "KuriosKat",
       "at": "2026-06-26 01:26",
+      "scope": "all"
+    },
+    "562687877988": {
+      "by": "KuriosKat",
+      "at": "2026-06-26 01:32",
+      "scope": "all"
+    },
+    "1f53c7ca9266": {
+      "by": "KuriosKat",
+      "at": "2026-06-26 01:32",
+      "scope": "all"
+    },
+    "6492131cee12": {
+      "by": "KuriosKat",
+      "at": "2026-06-26 01:32",
       "scope": "all"
     }
   }
