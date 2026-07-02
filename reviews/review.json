@@ -1,7 +1,7 @@
 {
   "schema": "cardata-review/v1",
   "dataset": "combined_dataset_ko_stt_2x.jsonl",
-  "updated_at": "2026-07-02T01:24:04.471Z",
+  "updated_at": "2026-07-02T01:25:32.983Z",
   "updated_by": "KuriosKat",
   "total_rows": 4736,
   "reviewed": 1,
