@@ -1,5 +1,15 @@
 {
   "schema": "cardata-review/v1",
   "dataset": "combined_dataset_ko_stt_2x.jsonl",
-  "reviews": {}
+  "updated_at": "2026-07-02T01:24:04.471Z",
+  "updated_by": "KuriosKat",
+  "total_rows": 4736,
+  "reviewed": 1,
+  "reviews": {
+    "e1ab45fdbe43": {
+      "by": "KuriosKat",
+      "at": "2026-07-02 01:23",
+      "scope": "all"
+    }
+  }
 }
